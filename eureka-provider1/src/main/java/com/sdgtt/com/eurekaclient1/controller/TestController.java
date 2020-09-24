@@ -15,7 +15,7 @@ public class TestController {
     @GetMapping("/hello")
     public Object hello() throws InterruptedException {
         log.info("service provider 1");
-        Thread.sleep(7000L);
+        Thread.sleep(11000L);
         return "hello,I'am service provider 1";
     }
 }
